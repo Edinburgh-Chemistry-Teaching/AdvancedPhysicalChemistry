@@ -1,4 +1,4 @@
-# Lecture 4: Classification and evaluation (half-flipped)
+# Lecture 4: Classification and evaluation
 
 **Required pre-work before the lecture on Monday 16 November:** watch the short video on Learn, work through Sections 0–5 of the notebook, then do the quiz on Learn. Sections 6 and 7 are optional practice after the lecture.
 
