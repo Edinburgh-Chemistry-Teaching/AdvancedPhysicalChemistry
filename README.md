@@ -10,7 +10,7 @@ There is one folder per lecture. Only the Lecture 4 notebook is required; the ot
 
 | Lecture | Topic | Notebook | |
 |---|---|---|---|
-| L1 | From fitting to learning | [`L1_fitting/`](L1_fitting/) (coming soon) | optional |
+| L1 | From fitting to learning | [`L1_fitting/L1_fitting_colloids.ipynb`](L1_fitting/L1_fitting_colloids.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/AdvancedPhysicalChemistry/blob/main/L1_fitting/L1_fitting_colloids.ipynb) | optional |
 | L2 | Unsupervised learning | [`L2_unsupervised/L2_unsupervised_wine.ipynb`](L2_unsupervised/L2_unsupervised_wine.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/AdvancedPhysicalChemistry/blob/main/L2_unsupervised/L2_unsupervised_wine.ipynb) | optional |
 | L3 | Representing chemistry | [`L3_representations/`](L3_representations/) (coming soon) | optional |
 | **L4** | **Classification and evaluation (flipped)** | [`L4_classification/L4_prework_IR_classification.ipynb`](L4_classification/L4_prework_IR_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/AdvancedPhysicalChemistry/blob/main/L4_classification/L4_prework_IR_classification.ipynb) | **required before Mon 16 Nov** |
@@ -36,7 +36,7 @@ The L4 notebook is the pre-work for the half-flipped lecture: before the lecture
 
 ```
 data/                datasets shared by the notebooks (see data/README.md)
-L1_fitting/          Lecture 1 notebook (optional)
+L1_fitting/          Lecture 1 notebook: non-linear fitting of colloid data (optional)
 L2_unsupervised/     Lecture 2 notebook: PCA and k-means on the wine data (optional)
 L3_representations/  Lecture 3 notebook (optional)
 L4_classification/   Lecture 4 pre-work notebook (required)
@@ -47,7 +47,7 @@ requirements.txt     Python packages needed
 
 ## Data and licence
 
-The IR spectra come from the Chemotion Repository, *FT-IR spectroscopy data (Chemotion IR)*, [DOI: 10.22000/OGoEQGlsZGElrgst](https://doi.org/10.22000/OGoEQGlsZGElrgst), CC BY-SA 4.0. Details are in [`data/README.md`](data/README.md).
+The DLS data for Lecture 1 are simulated. The IR spectra come from the Chemotion Repository, *FT-IR spectroscopy data (Chemotion IR)*, [DOI: 10.22000/OGoEQGlsZGElrgst](https://doi.org/10.22000/OGoEQGlsZGElrgst), CC BY-SA 4.0. Details are in [`data/README.md`](data/README.md).
 
 © Antonia Mey, University of Edinburgh, 2026. This repository uses two licences:
 
