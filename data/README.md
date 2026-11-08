@@ -12,3 +12,11 @@
 * molecule information (including `smiles`);
 * 15 functional-group labels (1 = present, 0 = absent): `carbonyl`, `ketone`, `aldehyde`, `ester`, `carboxylic_acid`, `amide`, `alcohol_phenol`, `amine_NH`, `nitrile`, `alkyne`, `alkene`, `aromatic`, `nitro`, `sulfonyl`, `halide`;
 * 900 absorbance columns, named by wavenumber in cm⁻¹.
+
+## `dls_silica_monodisperse.csv` (Lecture 1)
+
+**Simulated** dynamic light scattering (DLS) correlation functions for silica particles in water at 298 K (viscosity 8.90 × 10⁻⁴ Pa s, refractive index 1.332, laser wavelength 633 nm), with Gaussian noise of standard deviation 0.005. The correlation function is the decay $g(\tau) = \beta\, e^{-D q^2 \tau}$ with $\beta = 0.9$, as in the colloids lecture notes.
+
+Particles of diameter 30 nm, at 9 scattering angles. Columns: `tau_s` (lag time / s, 1 µs to 32 ms, log-spaced) and `g_30deg` … `g_150deg`.
+
+Made by the lecturer for teaching; CC BY-SA 4.0 like the rest of the repository.
