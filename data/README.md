@@ -28,3 +28,11 @@ Made by the lecturer for teaching; CC BY-SA 4.0 like the rest of the repository.
 **Source:** Quadram Institute Bioscience (formerly Institute of Food Research), [example data sets](https://csr.quadram.ac.uk/example-datasets-for-download/), file `FTIR_Spectra_instant_coffee.csv`, made available under the BBSRC data-sharing policy (free to analyse and redistribute with acknowledgement). Described in R. Briandet, E. K. Kemsley and R. H. Wilson, *J. Agric. Food Chem.* **44**, 170–174 (1996), [doi:10.1021/jf950305a](https://doi.org/10.1021/jf950305a), and G. Downey, R. Briandet, R. H. Wilson and E. K. Kemsley, *J. Agric. Food Chem.* **45**, 4357–4361 (1997).
 
 **Processing:** none apart from layout: the original file has one spectrum per column; here there is one spectrum per row. Columns: `sample` (original sample number), `species` (`Arabica` or `Robusta`), then 286 intensity columns named by wavenumber in cm⁻¹ (units as in the original file).
+
+## `lj_2d_snapshot.csv` (Lecture 3)
+
+**Simulated** positions of 855 atoms in one snapshot of a two-dimensional Lennard-Jones system in which a crystal and a dense (supercooled) liquid coexist. Reduced units: lengths in units of σ. Periodic box of 45.3078 σ × 23.5426 σ (number density 0.80 σ⁻²).
+
+Made with Langevin molecular dynamics (LJ potential truncated and shifted at 2.5 σ, T* = 0.45, γ = 1, time step 0.005 τ): a triangular crystal at density 0.90 in the middle 40 % of the box, the outside melted at T* = 2 with 20 % of its atoms removed, then the whole system run for 7.5 τ. Columns: `x`, `y` (positions / σ, inside the box).
+
+Made by the lecturer for teaching; CC BY-SA 4.0 like the rest of the repository.
