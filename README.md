@@ -14,7 +14,7 @@ There is one folder per lecture. Only the Lecture 4 notebook is required other a
 | L2 | Unsupervised learning | [`L2_unsupervised/L2_unsupervised_coffee.ipynb`](L2_unsupervised/L2_unsupervised_coffee.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/AdvancedPhysicalChemistry/blob/main/L2_unsupervised/L2_unsupervised_coffee.ipynb) | optional |
 | L3 | Representing chemistry | [`L3_representations/L3_descriptors_clustering_LJ.ipynb`](L3_representations/L3_descriptors_clustering_LJ.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/AdvancedPhysicalChemistry/blob/main/L3_representations/L3_descriptors_clustering_LJ.ipynb) | optional |
 | **L4** | **Classification and evaluation ** | [`L4_classification/L4_prework_IR_classification.ipynb`](L4_classification/L4_prework_IR_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/AdvancedPhysicalChemistry/blob/main/L4_classification/L4_prework_IR_classification.ipynb) | **required** |
-| L5 | Neural networks | [`L5_neural_networks/`](L5_neural_networks/) (coming soon) | optional |
+| L5 | Neural networks | [`L5_neural_networks/L5_neural_networks_LJ.ipynb`](L5_neural_networks/L5_neural_networks_LJ.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Edinburgh-Chemistry-Teaching/AdvancedPhysicalChemistry/blob/main/L5_neural_networks/L5_neural_networks_LJ.ipynb) | optional |
 
 ## How to run the notebooks
 
@@ -45,7 +45,7 @@ requirements.txt     Python packages needed
 
 The DLS data for Lecture 1 are simulated. The IR spectra come from the Chemotion Repository, *FT-IR spectroscopy data (Chemotion IR)*, [DOI: 10.22000/OGoEQGlsZGElrgst](https://doi.org/10.22000/OGoEQGlsZGElrgst), CC BY-SA 4.0. Details are in [`data/README.md`](data/README.md).
 
-© Antonia Mey, University of Edinburgh, 2026. This repository uses two licences:
+This repository uses two licences:
 
 * **Text, notebooks (prose and figures) and data:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), see [`LICENSE`](LICENSE).
 * **Code** (the code cells in the notebooks and any `.py` files): [MIT](https://opensource.org/licenses/MIT), see [`LICENSE-CODE`](LICENSE-CODE).
